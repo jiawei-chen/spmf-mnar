@@ -27,7 +27,7 @@ void mexFunction(int nlhs,mxArray *plhs[], int nrhs,const mxArray *prhs[])
      for(int i=1;i<=n;i++)
      {
 
-        int subs[2];
+        mwIndex subs[2];
         int nsubs=2;
         subs[0]=i-1;
         subs[1]=0;
